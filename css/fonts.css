@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Oswald";
+    src: url('../fonts/oswald-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-semibold-webfont.woff') format('woff'),
+         url('../fonts/oswald-semibold-webfont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/hinted-GothamPro-Light.eot');
+    src: local('../fonts/GothamPro-Light'),
+        url('../fonts/hinted-GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-GothamPro-Light.woff2') format('woff2'),
+        url('../fonts/hinted-GothamPro-Light.woff') format('woff'),
+        url('../fonts/hinted-GothamPro-Light.ttf') format('truetype'),
+        url('../fonts/hinted-GothamPro-Light.svg#GothamPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/hinted-GothamPro.eot');
+    src: local('../fonts/GothamPro'),
+        url('../fonts/hinted-GothamPro.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-GothamPro.woff2') format('woff2'),
+        url('../fonts/hinted-GothamPro.woff') format('woff'),
+        url('../fonts/hinted-GothamPro.ttf') format('truetype'),
+        url('../fonts/hinted-GothamPro.svg#GothamPro') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/hinted-GothamPro-Medium.eot');
+    src: local('../fonts/GothamPro-Medium'),
+        url('../fonts/hinted-GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-GothamPro-Medium.woff2') format('woff2'),
+        url('../fonts/hinted-GothamPro-Medium.woff') format('woff'),
+        url('../fonts/hinted-GothamPro-Medium.ttf') format('truetype'),
+        url('../fonts/hinted-GothamPro-Medium.svg#GothamPro-Medium') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/hinted-GothamPro-Bold.eot');
+    src: local('../fonts/GothamPro-Bold'),
+        url('../fonts/hinted-GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-GothamPro-Bold.woff2') format('woff2'),
+        url('../fonts/hinted-GothamPro-Bold.woff') format('woff'),
+        url('../fonts/hinted-GothamPro-Bold.ttf') format('truetype'),
+        url('../fonts/hinted-GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'andantino_scriptregular';
+    src: url('../fonts/Andantino.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-light-webfont.woff') format('woff'),
+         url('../fonts/raleway-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff'),
+         url('../fonts/raleway-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewayitalic';
+    src: url('../fonts/raleway-italic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-italic-webfont.woff') format('woff'),
+         url('../fonts/raleway-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff'),
+         url('../fonts/raleway-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url('../fonts/robotocondensed-light-webfont.woff2') format('woff2'),
+       url('../fonts/robotocondensed-light-webfont.woff') format('woff'),
+       url('../fonts/robotocondensed-light-webfont.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+       url('../fonts/robotocondensed-regular-webfont.woff') format('woff'),
+       url('../fonts/robotocondensed-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotocondensed_bold';
+  src: url('../fonts/robotocondensed-bold-webfont.woff2') format('woff2'),
+       url('../fonts/robotocondensed-bold-webfont.woff') format('woff'),
+       url('../fonts/robotocondensed-bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
