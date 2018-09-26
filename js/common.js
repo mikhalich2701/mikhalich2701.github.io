@@ -98,6 +98,7 @@ $( document ).ready(function() {
             });
         } else {
             $(str1 + ' .skills__elem-rowOne-shadow').animate({  textIndent: 180 }, {
+                //queue: false,
                 step: function(now,fx) {
                       $(this).css('transform','rotate(' + now + 'deg)');  
                     }, duration: 1000,
@@ -121,7 +122,7 @@ $( document ).ready(function() {
 	});
 
     $('.works__nav-elem').click(function (){              // фильтр сайтов
-        filterSite($(this).attr('rel'));
+        filterSite($(this).attr('rel'), );
     });
     function filterSite(mark) {
         var elemYes = $('.works__block > *').filter('.' + mark);
