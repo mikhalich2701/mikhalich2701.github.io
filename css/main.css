@@ -59,15 +59,21 @@ h6,
 }
 h1,
 .h1 {
+  padding-bottom: 50px;
+  color: #3C4761;
   font-size: 56px;
+  text-transform: uppercase;
 }
 h2,
 .h2 {
-  font-size: 40px;
+  padding-bottom: 50px;
+  color: #3C4761;
+  font-size: 56px;
+  text-transform: uppercase;
 }
 h3,
 .h3 {
-  font-size: 29px;
+  font-size: 40px;
 }
 h4,
 .h4 {
@@ -115,6 +121,14 @@ a:hover {
   left: 0;
   top: 0;
   z-index: 300;
+}
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.4);
 }
 /*==================================Header=================================*/
 .header {
@@ -176,6 +190,7 @@ a:hover {
   text-transform: uppercase;
 }
 .header__up-text-name {
+  color: #2A8FBE;
   text-align: right;
 }
 .header__up-text-name span {
@@ -313,11 +328,6 @@ a:hover {
   padding-bottom: 100px;
   background: #e6e6e6;
 }
-.aboutMe__title {
-  padding-bottom: 50px;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 0 #0e3141, -1px -1px 0 #99cfe8;
-}
 .aboutMe .col-md-4 {
   position: relative;
   -webkit-perspective: 1000px;
@@ -329,9 +339,8 @@ a:hover {
   margin-bottom: 20px;
   padding: 10px;
   padding-bottom: 40px;
-  font-family: 'andantino_scriptregular';
+  font-family: 'ralewaybold', sans-serif;
   font-size: 26px;
-  font-weight: bold;
   line-height: 25px;
   border: 1px solid #ccc;
   background: #fff;
@@ -457,12 +466,8 @@ a:hover {
       -ms-transform: skew(-2deg, 20deg) rotate(-105deg) scale(1) translate(-11px, -15px);
           transform: skew(-2deg, 20deg) rotate(-105deg) scale(1) translate(-11px, -15px);
 }
-.aboutMe__info-title {
-  font-family: 'andantino_scriptregular';
-  text-shadow: 1px 1px 0 #0e3141, -1px -1px 0 #99cfe8;
-}
 .aboutMe__info-text {
-  font-size: 31px;
+  font-size: 20px;
   color: #505050;
 }
 .aboutMe__foto {
@@ -532,20 +537,9 @@ a:hover {
   background-attachment: fixed;
   color: #3C4761;
 }
-.skills:before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.3);
-}
 .skills__title {
-  padding-bottom: 50px;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 0 #000000, -1px -1px 0 #25ffff;
-  color: #008B8B;
+  position: relative;
+  z-index: 50;
 }
 .skills__elem {
   margin: 0 auto;
@@ -612,13 +606,11 @@ a:hover {
   font-size: 50px;
   text-align: center;
   line-height: 50px;
-  text-shadow: 1px 1px 0 #020202, -1px -1px 0 #8391b3;
   background: transparent;
 }
 .skills__name {
   margin-bottom: 20px;
   font-size: 20px;
-  text-shadow: 1px 1px 0 #020202, -1px -1px 0 #8391b3;
   text-align: center;
 }
 .skills .html .skills__elem-rowOne-shadow {
@@ -751,13 +743,6 @@ a:hover {
   background: #e6e6e6;
   color: #3C4761;
 }
-.pageProofs__title {
-  padding-bottom: 50px;
-  text-transform: uppercase;
-  text-align: center;
-  text-shadow: 1px 1px 0 #030b15, -1px -1px 0 #5ea0ec;
-  color: #13549E;
-}
 .pageProofs__content {
   position: relative;
   width: 100%;
@@ -817,12 +802,10 @@ a:hover {
 .pageProofs__content-name {
   margin: 10px 0;
   font-size: 20px;
-  text-shadow: 1px 1px 0 #020202, -1px -1px 0 #8391b3;
 }
 .pageProofs__resurseTitle {
   padding-bottom: 50px;
   text-align: center;
-  text-shadow: 1px 1px 0 #030b15, -1px -1px 0 #5ea0ec;
   color: #13549E;
 }
 .pageProofs__resurse {
@@ -863,23 +846,9 @@ a:hover {
           background-size: cover;
   background-attachment: fixed;
 }
-.works:before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(255, 255, 255, 0.3);
-}
 .works__title {
   position: relative;
-  padding-bottom: 50px;
-  text-transform: uppercase;
-  text-align: center;
-  text-shadow: 1px 1px 0 #601b0d, -1px -1px 0 #f4b7ab;
-  color: #E14425;
-  z-index: 100;
+  z-index: 50;
 }
 .works__nav {
   margin-bottom: 50px;
@@ -1071,13 +1040,6 @@ a:hover {
   padding: 50px 0;
   background: #cccccc;
 }
-.contact__title {
-  padding-bottom: 50px;
-  text-transform: uppercase;
-  text-align: center;
-  text-shadow: 1px 1px 0 #093230, -1px -1px 0 #83eae4;
-  color: #1fb5ac;
-}
 .contact__elem {
   position: relative;
   width: 200px;
@@ -1105,7 +1067,7 @@ a:hover {
   left: 15px;
   -webkit-border-radius: 50%;
           border-radius: 50%;
-  background: #1fb5ac;
+  background: #36a955;
   opacity: 0;
   -webkit-transition: .5s;
   -o-transition: .5s;
@@ -1119,7 +1081,7 @@ a:hover {
   -webkit-border-radius: 50%;
           border-radius: 50%;
   border: 5px solid #cccccc;
-  background: #1fb5ac;
+  background: #36a955;
   color: #fff;
   font-size: 64px;
   line-height: 132px;
@@ -1128,8 +1090,7 @@ a:hover {
   padding: 20px 0;
   font-family: 'ralewaybold', sans-serif;
   font-size: 28px;
-  color: #1fb5ac;
-  text-shadow: 1px 1px 0 #093230, -1px -1px 0 #83eae4;
+  color: #36a955;
 }
 .contact__elem p {
   font-size: 16px;
@@ -1139,43 +1100,40 @@ a:hover {
   color: #545454;
 }
 .contact__elem p a:hover {
-  color: #e12444;
+  color: #d93025;
 }
 .contact .elem2:before {
-  background: #e12444;
+  background: #d93025;
 }
 .contact .elem2 .contact__elem-logo {
-  background: #e12444;
+  background: #d93025;
 }
 .contact .elem2 .contact__elem-title {
-  color: #e12444;
-  text-shadow: 1px 1px 0 #5f0d1b, -1px -1px 0 #f3abb7;
+  color: #d93025;
 }
 .contact .elem3:before {
-  background: #e0c124;
+  background: #545454;
 }
 .contact .elem3 .contact__elem-logo {
-  background: #e0c124;
+  background: #545454;
 }
 .contact .elem3 .contact__elem-title {
-  color: #e0c124;
-  text-shadow: 1px 1px 0 #5e500d, -1px -1px 0 #f3e7aa;
+  color: #545454;
 }
 .contact .elem3 p a:hover {
-  color: #e0c124;
+  color: #545454;
 }
 .contact .elem4:before {
-  background: #1fb538;
+  background: #00aff0;
 }
 .contact .elem4 .contact__elem-logo {
-  background: #1fb538;
+  background: #00aff0;
 }
 .contact .elem4 .contact__elem-title {
-  color: #1fb538;
-  text-shadow: 1px 1px 0 #093210, -1px -1px 0 #83ea94;
+  color: #00aff0;
 }
 .contact .elem4 p a:hover {
-  color: #1fb538;
+  color: #00aff0;
 }
 /*==============================FOOTER============================*/
 .footer {
@@ -1214,7 +1172,7 @@ a:hover {
 .footer__social-elem:after {
   content: "";
   position: absolute;
-  background: blue;
+  background: #4c75a3;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   left: -10px;
@@ -1228,13 +1186,13 @@ a:hover {
   transition: .3s;
 }
 .footer__social .facebook:after {
-  background: #ff1493;
+  background: #3b5998;
 }
 .footer__social .ok:after {
-  background: #0ff;
+  background: #ff7f50;
 }
 .footer__social .github:after {
-  background: #ff7f50;
+  background: #24292e;
 }
 .footer__social-develop {
   text-align: center;
